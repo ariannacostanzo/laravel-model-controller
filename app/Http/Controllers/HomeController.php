@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 //includo i movies
-use app\Models\Movie;
+use App\Models\Movie;
 
 class HomeController extends Controller
 {
@@ -12,6 +12,6 @@ class HomeController extends Controller
     {
         $movies = Movie::all();
 
-        return view('home', compact('movies '));
+        return view('home', compact('movies'));
     }
 }
