@@ -1,5 +1,8 @@
 @extends('templates.main')
 
 @section('main-content')
-    <div>Movies</div>
+    @foreach ($movies as $movie)
+        <p>{{$movie->title}}</p>
+    @endforeach
+    Ecco
 @endsection
