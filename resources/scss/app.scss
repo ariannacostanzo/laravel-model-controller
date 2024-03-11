@@ -3,6 +3,7 @@
 body {
     background-color: #3d708b;
     color: black;
+    display: block;
 }
 
 .movie-card {
@@ -42,7 +43,7 @@ strong {
 
 .streaming-button {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     padding: 10px 0;
